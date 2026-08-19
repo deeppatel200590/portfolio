@@ -37,7 +37,7 @@ const Contact = () => {
       <div className="mt-10 flex gap-4">
 
         <a
-          href="https://github.com/"
+          href="https://github.com/deeppatel200590"
           target="_blank"
           className="rounded-lg border border-slate-700 px-6 py-3 hover:bg-slate-900"
         >
@@ -45,7 +45,7 @@ const Contact = () => {
         </a>
 
         <a
-          href="https://linkedin.com/"
+          href="https://www.linkedin.com/in/deep-adroja-7a6065385/"
           target="_blank"
           className="rounded-lg bg-blue-600 px-6 py-3 hover:bg-blue-700"
         >

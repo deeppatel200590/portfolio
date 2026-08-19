@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <section className="mx-auto flex min-h-[90vh] max-w-6xl items-center px-6">
@@ -23,19 +25,19 @@ const Home = () => {
 
         <div className="mt-8 flex gap-4">
 
-          <a
-            href="/projects"
+          <Link
+            to="/projects"
             className="rounded-lg bg-blue-600 px-6 py-3 font-medium hover:bg-blue-700"
           >
             View Projects
-          </a>
+          </Link>
 
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="rounded-lg border border-slate-700 px-6 py-3 font-medium hover:bg-slate-900"
           >
             Contact Me
-          </a>
+          </Link>
 
         </div>
 
